@@ -13,10 +13,22 @@ body {
 .banner .content .title {
     font-family: 'Gill Sans';
     font-size: 9em;
+    transition: all 0.3s ease;
+}
+
+.banner .content .title:hover {
+    color: gold;
+    transition: all 0.3s ease;
 }
 
 #subtitle{
     font-size: 2.5em;
+    transition: all 0.3s ease;
+}
+
+#subtitle:hover{
+    color: gold;
+    transition: all 0.3s ease;
 }
 
 .banner::before {
