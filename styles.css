@@ -11,7 +11,7 @@ body {
     position: relative;
 }
 .banner .content .title {
-    font-family: 'Mozilla',;
+    font-family: 'Gill Sans';
     font-size: 9em;
 }
 
@@ -24,9 +24,14 @@ body {
     background-position: center;
     z-index: -1;
 
-    mask-image: url(ink_lv2.gif);
+    mask-image: none;
     mask-size: cover;
     mask-position: center;
+    mask-repeat: no-repeat;
+}
+
+.banner.animate::before {
+    mask-image: url(ink_lv2.gif);
 }
 
 .redo-button {
@@ -40,5 +45,5 @@ body {
     background-color: #333;
     border: none;
     cursor: pointer;
-    z-index: 1; /* Ensure the button is above the animation */
+    z-index: 1;
 }
