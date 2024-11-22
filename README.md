@@ -17,3 +17,11 @@ A visually stunning intro animation that utilizes a GIF-based ink mask to create
    - Click the "Redo Animation" button at the bottom of the screen.
    - This will reset the animation and replay the ink effect.
 3. **Reset on Refresh**: After the animation plays, it will not replay upon refreshing the page unless the "Redo Animation" button is clicked.
+
+---
+
+## Button Design Highlights
+The "Redo Animation" button has been updated to a modern style:
+- Gradient background for a sleek appearance.
+- Subtle hover effect with scaling and color changes.
+- Active press effect for a tactile feel.
