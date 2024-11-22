@@ -10,3 +10,10 @@ A visually stunning intro animation that utilizes a GIF-based ink mask to create
 - **GIF-Based Mask Animation**: Displays an ink-style reveal effect on the page's banner.
 - **Replay Animation**: A "Redo Animation" button allows users to replay the intro animation without refreshing the browser.
 - **Modern Design**: The button features a sleek, gradient background with hover and active effects for an enhanced user experience.
+
+### How to Use
+1. **Load the Page**: When the page loads for the first time, the ink animation plays automatically.
+2. **Replay the Animation**:
+   - Click the "Redo Animation" button at the bottom of the screen.
+   - This will reset the animation and replay the ink effect.
+3. **Reset on Refresh**: After the animation plays, it will not replay upon refreshing the page unless the "Redo Animation" button is clicked.
